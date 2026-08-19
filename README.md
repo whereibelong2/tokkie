@@ -7,7 +7,7 @@
 
 ### tiny receipts for long conversations
 
-*A small experiment in turning all that yapping into something you can actually hold onto.*
+*A small experiment in turning all that yapping into something you can actually hold onto. View interactive prototype [here](https://whereibelong2.github.io/tokkie/).*
 
 </div>
 
