@@ -1,0 +1,176 @@
+<div style="display: flex; justify-content: center; padding: 1.5rem 0; background: #F4EFE6; border-radius: var(--border-radius-lg);">
+<div id="tokkie-card" style="width: 340px; background: #FFFFFF; padding: 28px 22px 16px; font-family: var(--font-mono); color: #1A1A1A; position: relative; clip-path: url(#tokkie-clip-final9);">
+
+  <svg width="0" height="0" style="position: absolute;">
+    <clipPath id="tokkie-clip-final9" clipPathUnits="userSpaceOnUse">
+      <path id="final-scallop-path9" d="" />
+    </clipPath>
+    <filter id="grain-fine3"><feTurbulence id="turb-fine3" type="fractalNoise" baseFrequency="1.4 0.5" numOctaves="2" result="n"/><feColorMatrix id="mat-fine3" in="n" type="matrix" values="0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 0.13 0"/></filter>
+    <filter id="grain-coarse3"><feTurbulence id="turb-coarse3" type="fractalNoise" baseFrequency="0.15" numOctaves="1" result="n2"/><feColorMatrix id="mat-coarse3" in="n2" type="matrix" values="0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 0.07 0"/></filter>
+  </svg>
+
+  <div id="edge-ring3" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; clip-path: url(#tokkie-clip-final9); box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.05);"></div>
+
+  <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+    <rect width="100%" height="100%" filter="url(#grain-fine3)" />
+    <rect width="100%" height="100%" filter="url(#grain-coarse3)" />
+  </svg>
+
+  <div style="text-align: center; margin-bottom: 2px; margin-top: 6px; position: relative;">
+    <div style="font-size: 23px; font-weight: 500; letter-spacing: 1px;">tokkie</div>
+    <div style="font-size: 11px; opacity: 0.6; margin-top: 2px;">tiny receipts for long conversations</div>
+  </div>
+
+  <div style="border-top: 1.5px dashed rgba(0,0,0,0.25); margin: 16px 0 14px; position: relative;"></div>
+
+  <div style="font-size: 13px; line-height: 1.9; position: relative;">
+    <div style="display: flex; justify-content: space-between;"><span>total messages</span><span style="font-weight: 500;">412</span></div>
+    <div style="display: flex; justify-content: space-between;"><span>characters</span><span style="font-weight: 500;">189,304</span></div>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <span>est. tokens</span>
+      <span style="display: flex; align-items: center; gap: 5px;">
+        <span style="font-weight: 500;">~47,800</span>
+        <button id="usd-toggle" aria-label="show cost estimate" style="border: 1px solid rgba(0,0,0,0.35); border-radius: 50%; width: 16px; height: 16px; font-size: 10px; line-height: 1; padding: 0; background: transparent; color: #1A1A1A; cursor: pointer;">?</button>
+      </span>
+    </div>
+    <div id="usd-line" style="display: none; justify-content: flex-end; font-size: 12px; opacity: 0.55; margin-top: -2px;">= $0.14 spent</div>
+    <div style="display: flex; justify-content: space-between;"><span>you : claude</span><span style="font-weight: 500;">38% / 62%</span></div>
+  </div>
+
+  <div style="border-top: 1.5px dashed rgba(0,0,0,0.25); margin: 14px 0; position: relative;"></div>
+
+  <div style="font-size: 12px; opacity: 0.65; margin-bottom: 8px; position: relative;">that's equivalent to</div>
+  <div id="equiv-text" style="font-size: 13px; line-height: 1.9; position: relative;"></div>
+  <div style="margin-top: 6px; position: relative;">
+    <button id="equiv-shuffle" style="border: none; background: transparent; font-size: 11px; opacity: 0.5; cursor: pointer; text-decoration: underline; font-family: var(--font-mono); padding: 0;">shuffle ⟳</button>
+  </div>
+
+  <div style="border-top: 1.5px dashed rgba(0,0,0,0.25); margin: 14px 0; position: relative;"></div>
+
+  <div style="font-size: 12px; opacity: 0.65; margin-bottom: 8px; position: relative;">top topics</div>
+  <div style="font-size: 13px; line-height: 1.9; position: relative;">
+    <div>◦ bts</div>
+    <div>◦ weight loss</div>
+    <div>◦ coding</div>
+  </div>
+
+  <div style="border-top: 1.5px dashed rgba(0,0,0,0.25); margin: 14px 0; position: relative;"></div>
+
+  <div style="font-size: 12px; opacity: 0.65; margin-bottom: 10px; position: relative;">your signature expressions</div>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; position: relative;">
+    <span style="background: #F4EFE6; border-radius: 12px; padding: 5px 12px; font-size: 13px;">"lol" ×34</span>
+    <span style="background: #F4EFE6; border-radius: 12px; padding: 5px 12px; font-size: 13px;">"wait actually" ×19</span>
+  </div>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; position: relative;">
+    <span style="background: #F4EFE6; border-radius: 12px; padding: 5px 12px; font-size: 13px;">"hmm" ×27</span>
+    <span style="background: #F4EFE6; border-radius: 12px; padding: 5px 12px; font-size: 13px;">👀 ×15</span>
+  </div>
+  <div style="font-size: 12px; opacity: 0.55; font-style: italic; position: relative;">you said "lol" more than most people say "the"</div>
+
+  <div style="border-top: 1.5px dashed rgba(0,0,0,0.25); margin: 14px 0; position: relative;"></div>
+
+  <div style="font-size: 12px; opacity: 0.65; margin-bottom: 4px; position: relative;">mood</div>
+  <div style="font-size: 15px; font-weight: 500; position: relative;">chaotic but happy</div>
+
+  <div style="border-top: 1.5px dashed rgba(0,0,0,0.25); margin: 16px 0 12px; position: relative;"></div>
+
+  <div id="signoff" style="text-align: center; font-size: 13px; position: relative;"></div>
+  <div style="text-align: center; font-size: 16px; margin: 8px 0; position: relative;">✿ ✿ ✿</div>
+  <div style="text-align: center; font-size: 11px; opacity: 0.5; line-height: 1.6; position: relative;">generated on 25/06/2026 · 14:32<br>stayed on your device</div>
+  <div style="height: 14px;"></div>
+
+</div>
+</div>
+<script>
+(function(){
+  function buildClipPath(width, height, toothWidth, toothDepth) {
+    var n = Math.max(2, Math.round(width / toothWidth));
+    var step = width / n;
+    var r = step / 2;
+    var d = 'M0,' + toothDepth + ' ';
+    for (var i = 0; i < n; i++) {
+      var xEnd = (i + 1) * step;
+      d += 'A' + r.toFixed(3) + ',' + toothDepth + ' 0 0 1 ' + xEnd.toFixed(3) + ',' + toothDepth + ' ';
+    }
+    d += 'L' + width.toFixed(3) + ',' + (height - toothDepth).toFixed(3) + ' ';
+    for (var i = n - 1; i >= 0; i--) {
+      var xEnd = i * step;
+      d += 'A' + r.toFixed(3) + ',' + toothDepth + ' 0 0 0 ' + xEnd.toFixed(3) + ',' + (height - toothDepth).toFixed(3) + ' ';
+    }
+    d += 'Z';
+    return d;
+  }
+
+  var card = document.getElementById('tokkie-card');
+  var pathEl = document.getElementById('final-scallop-path9');
+
+  function applyClip() {
+    var w = card.offsetWidth;
+    var h = card.offsetHeight;
+    if (w === 0 || h === 0) return;
+    pathEl.setAttribute('d', buildClipPath(w, h, 10, 7));
+  }
+
+  applyClip();
+  if (window.ResizeObserver) {
+    var ro = new ResizeObserver(function(){ applyClip(); });
+    ro.observe(card);
+  } else {
+    window.addEventListener('resize', applyClip);
+    setTimeout(applyClip, 50);
+    setTimeout(applyClip, 250);
+  }
+
+  function rand(min, max) { return min + Math.random() * (max - min); }
+
+  var seedFine = Math.floor(Math.random() * 1000);
+  var seedCoarse = Math.floor(Math.random() * 1000);
+  var freqFineX = rand(1.1, 1.7).toFixed(2);
+  var freqFineY = rand(0.3, 0.6).toFixed(2);
+  var freqCoarse = rand(0.1, 0.22).toFixed(3);
+  var opacityFine = rand(0.12, 0.15).toFixed(3);
+  var opacityCoarse = rand(0.06, 0.08).toFixed(3);
+
+  document.getElementById('turb-fine3').setAttribute('seed', seedFine);
+  document.getElementById('turb-fine3').setAttribute('baseFrequency', freqFineX + ' ' + freqFineY);
+  document.getElementById('mat-fine3').setAttribute('values', '0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 ' + opacityFine + ' 0');
+
+  document.getElementById('turb-coarse3').setAttribute('seed', seedCoarse);
+  document.getElementById('turb-coarse3').setAttribute('baseFrequency', freqCoarse);
+  document.getElementById('mat-coarse3').setAttribute('values', '0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 0 0.4  0 0 0 ' + opacityCoarse + ' 0');
+
+  var usdBtn = document.getElementById('usd-toggle');
+  var usdLine = document.getElementById('usd-line');
+  var shown = false;
+  usdBtn.addEventListener('click', function(){
+    shown = !shown;
+    usdLine.style.display = shown ? 'flex' : 'none';
+  });
+
+  var equivSets = [
+    ['📖 3 novels', '📄 2,800 pages', '☕ 24 hours of yapping'],
+    ['🌙 183 late-night chats', '☕ 280 hours of yapping', '💬 2,481 messages'],
+    ['🎬 1.5 movie marathons', '🚶 19 hours of walking podcasts', '📚 9 chapters of a textbook'],
+    ['✈️ a flight to tokyo and back', '🎵 320 songs played back to back', '📝 38 college essays']
+  ];
+  var idx = Math.floor(Math.random() * equivSets.length);
+  var equivText = document.getElementById('equiv-text');
+  function render(i){
+    equivText.innerHTML = equivSets[i].map(function(s){return '<div>' + s + '</div>';}).join('');
+  }
+  render(idx);
+  document.getElementById('equiv-shuffle').addEventListener('click', function(){
+    idx = (idx + 1) % equivSets.length;
+    render(idx);
+  });
+
+  var signoffs = [
+    'that was a lot of words. nice.',
+    'okay wow. you really said all that.',
+    'your keyboard deserves a rest.',
+    'certified yapper. respectfully.',
+    'this conversation has left the chat.'
+  ];
+  document.getElementById('signoff').textContent = signoffs[Math.floor(Math.random() * signoffs.length)];
+})();
+</script>
